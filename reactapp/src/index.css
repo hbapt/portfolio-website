@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+@font-face {
+    font-family: "commodore64";
+    src: local("commodore64"),
+        url("./fonts/commodore_64/commodore-64.TTF") format("truetype");
+}
+@font-face {
+    font-family: "commodore64-angled";
+    src: local("commodore64-angled"),
+        url("./fonts/commodore_64/commodore-angled.ttf") format("truetype");
+}
+@font-face {
+    font-family: "commodore64-rounded";
+    src: local("commodore64-rounded"),
+        url("./fonts/commodore_64/commodore-rounded.ttf") format("truetype");
+}
